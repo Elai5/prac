@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    outline: none;
+}
+body{
+    background: rgb(10, 7, 27);
+    color: white;
+}
+.nav{
+    display: flex;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    position: sticky;
+  
+}
+h1{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+h1 span{
+    color: lightblue;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex: 1;
+    
+}
+.nav ul li{
+list-style: none;
+}
+.nav ul li a{
+text-decoration: none;
+text-transform: capitalize;
+font-weight: normal;
+color: white;
+}
+.nav ul li a:hover{
+    color: lightblue;
+    /* box-shadow: 15px 0 0 25px white; */
+    transition: .5s;
+
+}
+.profile{
+    width: 100%;
+    height: 100vh;
+    padding: 8px;
+    margin-top: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 68px;
+}
+.content p{
+    padding: 18px;
+    font-size: 22px;
+}
+img{
+    /* display: flex; */
+    float: right;
+    height: 70%;
+    width: 34%;
+    margin-right: 20px;
+}
+.btn{
+    padding: 12px 25px;
+    margin:  15px 15px;
+    color: white;
+    border-radius: 25px;
+    background: aqua;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.btn:hover{
+    box-shadow: 0 0 0 2px white;
+    cursor: pointer;
+    background-color: orangered;
+    color: black;
+} 
+.container{
+    width: 1100px;
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 1rem;
+}
+.card p{
+    margin-top: -35px;
+}
