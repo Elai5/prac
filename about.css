@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: white; */
+    color: black;
+    scroll-behavior: smooth;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+    /* background: red; */
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+}
+.about-image{
+    display: flex;
+}
+.about-image img{
+    width: 26%;
+    height: auto;
+    border-radius: 25px;
+    margin: 100px 70px;
+}
+.about-me{
+    margin: 100px 10px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* background: red; */
+    
+}
+.about-me h2{
+    color:#676cdb;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+
+}
+.about-me h1{
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+    line-height: 37px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.about-me p{
+    padding-left: 10px;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #9f9f9f;
+    margin-top: 15px;
+}
+.video-part{
+    /* margin-top: 20px; */
+    /* bottom: 0; */
+    margin-top:   40px;
+    display: flex;
+    /* background: red; */
+    width: 780px;
+
+}
+.btn{
+    background: #676cdb;
+    border-radius: 55px;
+    margin: 15px;
+    padding:  20px 42px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    /* margin-top: 40px; */
+}
+.vid{
+    display: flex;
+    /* background-color: #676cdb; */
+    width: 200px;
+    margin-top: 17px;
+    margin-left: 20px;
+
+}
+.vid i{
+    font-size: 56px;
+    /* margin-top: 40px; */
+    /* font-size: 50px; */
+}
+.vid p{
+    margin-left: 60px;
+    display: flex;
+    margin-top: -40px;
+    color: black;
+}
+.vid a{
+    text-decoration: none;
+    color: black;
+}
